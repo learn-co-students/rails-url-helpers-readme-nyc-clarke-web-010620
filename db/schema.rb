@@ -20,4 +20,6 @@ ActiveRecord::Schema.define(version: 20151230232412) do
     t.datetime "updated_at",  null: false
   end
 
+  Post.create(title: 'A lovely title', description: 'A superb description') 
+
 end
